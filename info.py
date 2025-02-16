@@ -4,15 +4,15 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = environ.get("API_ID" , "2099007")
-API_HASH = environ.get("API_HASH" , "b1b3d7b3b1b3d7b3b1b3d7b3b1b3d7b3")
-BOT_TOKEN = environ.get("BOT_TOKEN" , "2099007:AAH1b3d7b3b1b3d7b3b1b3d7b3b1b3d7b3")
-ADMIN = int(environ.get("ADMIN" , "1847899007"))
-CHAT_GROUP = int(environ.get("CHAT_GROUP", "-100"))
-LOG_CHANNEL = environ.get("LOG_CHANNEL", "-100")
-MONGO_URL = environ.get("MONGO_URL" , "mongodb://localhost:27017")
+API_ID = environ.get("API_ID" , "23615625")
+API_HASH = environ.get("API_HASH" , "6d3442904a75dd51ae064629248f3c9d")
+BOT_TOKEN = environ.get("BOT_TOKEN" , "7980456184:AAHCdiFB3e9GMCiZdkl76g3aggx9dBCGaKY")
+ADMIN = int(environ.get("ADMIN" , "7093899037"))
+CHAT_GROUP = int(environ.get("CHAT_GROUP", "-1002150125584"))
+LOG_CHANNEL = environ.get("LOG_CHANNEL", "-1002304384234")
+MONGO_URL = environ.get("MONGO_URL" , "mongodb+srv://userusa:userusa@shubhmoviebot.u0ngr.mongodb.net/?retryWrites=true&w=majority&appName=shubhmoviebot")
 AUTH_CHANNEL = int(
-    environ.get("AUTH_CHANNEL", "-1001734958816")
+    environ.get("AUTH_CHANNEL", "-1002376520813")
 )
 FSUB = environ.get("FSUB", True)
 STICKERS_IDS = (
